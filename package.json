@@ -1,0 +1,28 @@
+{
+  "name": "tuber-client",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "repository": "GTDev87/tuber-client",
+  "author": {
+    "name": "Gregory Thompson",
+    "email": "gregt87@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [],
+  "devDependencies": {
+    "jasmine": "^2.3.1"
+  },
+  "scripts": {
+    "test": "node ./node_modules/jasmine/bin/jasmine.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "pem": "^1.7.2"
+  }
+}
