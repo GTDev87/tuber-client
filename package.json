@@ -22,7 +22,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "lodash": "^3.10.1",
-    "pem": "^1.7.2"
+    "lodash": "^3.10.1"
   }
 }
