@@ -1,14 +1,12 @@
 {
   "name": "tuber-client",
   "version": "0.0.2",
-  "description": "",
-  "homepage": "",
-  "repository": "GTDev87/tuber-client",
-  "author": {
-    "name": "Gregory Thompson",
-    "email": "gregt87@gmail.com",
-    "url": ""
+  "homepage": "https://github.com/gtdev87/tuber-client#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtdev87/tuber-client.git"
   },
+  "author": "Gregory Thompson <gregt87@gmail.com>",
   "main": "index.js",
   "keywords": [],
   "devDependencies": {
@@ -23,5 +21,9 @@
     "macaroons.js": "^0.3.5",
     "node-rsa": "^0.2.25",
     "request": "^2.65.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/gtdev87/tuber-client/issues"
+  },
+  "description": ""
 }
