@@ -23,6 +23,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^3.10.1",
+    "macaroons.js": "^0.3.5",
     "node-rsa": "^0.2.25",
     "request": "^2.65.0"
   }
