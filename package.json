@@ -9,9 +9,6 @@
     "email": "gregt87@gmail.com",
     "url": ""
   },
-  "files": [
-    "dist"
-  ],
   "main": "index.js",
   "keywords": [],
   "devDependencies": {
