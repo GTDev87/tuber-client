@@ -15,6 +15,6 @@ var socketClearTextStream = tuberClient.createConnection(
       console.log('document saved as: http://mikeal.iriscouch.com/testjs/'+ rand)
     } else {
       console.log('error: '+ response.statusCode)
-      console.log(body)
+      console.log(body);
     }
   });

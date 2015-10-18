@@ -12,7 +12,7 @@
   "files": [
     "dist"
   ],
-  "main": "dist/index.js",
+  "main": "index.js",
   "keywords": [],
   "devDependencies": {
     "jasmine": "^2.3.1"
