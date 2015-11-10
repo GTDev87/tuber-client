@@ -9,7 +9,7 @@ var tuberClient = require("../lib"),
 var socketClearTextStream = tuberClient.createConnection(
   fs.readFileSync(secretFileLocation, "utf8"), 
   JSON.parse(fs.readFileSync(macaroonFileLocation, "utf8")),
-  "https://" + ip + ":" + port,
+  {ip: ip, port: port: route: "/"}
   function (error, response, body) {
     if(response.statusCode == 201){
       console.log('document saved as: http://mikeal.iriscouch.com/testjs/'+ rand)
